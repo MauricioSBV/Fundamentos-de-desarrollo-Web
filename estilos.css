@@ -3,8 +3,23 @@
     color: rgb(40, 144, 121);
 }
 
-img {
+#img_intro {
     width: 350px;
     height: 350px;
     border-radius: 20%;
+}
+
+#amalfi {
+    color: green;
+    text-decoration: underline;
+}
+
+#napoli {
+    color: blue;
+    text-decoration: underline;
+}
+
+#torino {
+    color: brown;
+    text-decoration: underline;
 }
