@@ -23,3 +23,18 @@
     color: brown;
     text-decoration: underline;
 }
+
+#tabla {
+    border-collapse: collapse;
+    width: 50%;
+}
+
+#tabla th, #tabla td {
+    border: 1px solid #100e0e;
+    text-align: left;
+}
+
+#tabla th {
+    background-color: #3498db;
+    color: #fff;
+}

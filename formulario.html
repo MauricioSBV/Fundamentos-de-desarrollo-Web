@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario Murano</title>
+    <!-- Enlace a estilos CSS -->
+    <link rel="stylesheet" href="estilos.css">
+</head>
+
+<body>
+    <h1 class="titulo">Precios y Formulario</h1>
+    <hr>
+    <section>
+        <h2>Precios:</h2>
+        <table id="tabla">
+        <tr>
+            <th><strong>Modelo</strong></th>
+            <th><strong>Precio</strong></th>
+        </tr>
+        <tr>
+            <td><strong>Torino</strong></td>
+            <td>$1,500,000</td>
+        </tr>
+        <tr>
+            <td><strong>Napoli</strong></td>
+            <td>$1,800,000</td>
+        </tr>
+        <tr>
+            <td><strong>Amalfi</strong></td>
+            <td>$2,000,000</td>
+        </tr>
+        </table>
+    </section>
+    <br>
+    <section>
+        <p>Si está interesado en adquirir una de nuestras casas, por favor llene el siguiente formulario:</p>
+        <label for="nombre">Nombre Completo:</label>
+        <input type="text" id="nombre" name="nombre">
+        <br>
+        <label for="correo">¿Qué modelo es de su interés?:</label>
+        <select name="modelos" id="modelos"> 
+        <option value="Napoli">Napoli</option> 
+        <option value="Amalfi">Amalfi</option> 
+        <option value="Capri">Capri</option> 
+        </select>
+        <br>
+        <label for="credito">¿Cuenta con crédito hipotecario?:</label>
+        <input type="checkbox" id="credito" name="credito" value="Si">
+        <br>
+        <label for="telefono">Teléfono:</label>
+        <input type="tel" id="telefono" name="telefono">
+        <br>
+        <input type="button" value="Capturar respuesta">
+    </section>
+</body>
+</html>
